@@ -210,7 +210,7 @@ span {
 }
 
 .hero {
-  background: url(../img/hero.png) center/cover no-repeat;
+  background: url(/src/assets/tour-hero.jpg) center/cover no-repeat;
   color: var(--primary-white);
   position: relative;
   text-align: center;
