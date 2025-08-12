@@ -100,7 +100,7 @@ span {
 /* navbar  */
 
 .navbar {
-  background-color: var(--primary-10);
+  background-color: var(--primary-8);
   padding: 0 2rem;
   height: var(--nav-height);
   position: fixed;
@@ -129,6 +129,7 @@ span {
   a {
     color: var(--primary-4);
     font-size: 1.2rem;
+    text-transform: capitalize;
   }
 }
 
@@ -192,6 +193,7 @@ span {
     display: block;
     a {
       color: var(--primary-white);
+      text-transform: capitalize;
     }
   }
 }

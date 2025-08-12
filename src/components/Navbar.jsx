@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logo from "/src/assets/horse-vector-logo260x260.svg";
-import PageLink from "./PageLink";
+import PageLinks from "./PageLinks";
 import SocialLink from "./SocialLink";
 
 const Navbar = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
 
           {/* <!-- desktop-menu --> */}
           <div className="main-menu">
-            <PageLink groupName="menu-list" itemName="menu-item" />
+            <PageLinks groupName="menu-list" itemName="menu-item" />
           </div>
 
           {/* <!-- mobile-menu --> */}
@@ -35,7 +35,7 @@ const Navbar = () => {
                 isToggle ? "mobile-menu-items active" : "mobile-menu-items"
               }
             >
-              <PageLink
+              <PageLinks
                 groupName="mobile-menu-list"
                 itemName="mobile-menu-item"
               />

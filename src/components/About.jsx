@@ -1,15 +1,14 @@
-import React from "react";
-import { getImageUrl } from "../utils/images";
+import img from "../assets/tour11.jpg";
+import Title from "./Title";
 
 const Hero = () => {
   return (
     <section className="about" id="about">
-      <h2>
-        about <span className="text-secondary">us</span>
-      </h2>
+      <Title title="about" subtitle="us" />
+
       <div className="about-content">
         <div className="about-img">
-          <img src={getImageUrl("tour11.jpg")} alt="" />
+          <img src={img} alt="" />
         </div>
         <div className="text">
           <h3>explore the difference</h3>
